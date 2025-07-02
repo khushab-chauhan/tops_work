@@ -1,0 +1,10 @@
+1.Introduction to GitHub API and how to interact with repositories, pull requests, and issues.
+
+The GitHub API is a RESTful (and GraphQL) interface provided by GitHub that allows developers to programmatically interact with GitHub resources such as:
+
+1.Repositories
+2.Issues
+3.Pull Requests
+4.Users & Teams
+5.Commits & Branches
+6.Deployments & Workflows

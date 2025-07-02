@@ -1,0 +1,27 @@
+1.Configuring Django settings for database,static files, and API keys
+1.
+# settings.py
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+2.
+STATIC_URL = '/static/'
+
+# Where static files will be collected
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# Additional static file directories
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
+
+3.
+
+# API Keys
+SENDGRID_API_KEY = config('SENDGRID_API_KEY')
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')

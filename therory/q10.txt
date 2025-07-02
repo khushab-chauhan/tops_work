@@ -1,0 +1,58 @@
+1.Implementing social authentication (e.g., Google, Facebook) in Django
+->pip install social-auth-app-django
+->
+INSTALLED_APPS = [
+    ...
+    'social_django',
+]
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.google.GoogleOAuth2',  # for Google
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+# Google credentials (you will get these from Google Developer Console)
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'YOUR_CLIENT_ID'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'YOUR_CLIENT_SECRET'
+
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = 'home'
+
+# Optional: Show login error
+SOCIAL_AUTH_LOGIN_ERROR_URL = '/login-error/'
+-> from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('auth/', include('social_django.urls', namespace='social')),  # <-- important
+    ...
+]
+--------------------------------------
+2.Sending emails and OTPs using third-party APIslike Twilio, SendGrid.
+
+SendGrid is a cloud-based service that lets you send transactional and marketing emails via API or SMTP — widely used for:
+
+Registration confirmations
+
+Password resets
+
+Email newsletters
+
+Twilio is a communication API that lets you send:
+
+SMS
+
+Voice calls
+
+WhatsApp messages
+
+OTPs (One Time Passwords)
+
+It’s ideal for:
+
+Mobile number verification
+
+Login OTPs
+
+Appointment reminders

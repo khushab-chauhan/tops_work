@@ -1,0 +1,11 @@
+1.Using Twitter API to fetch and post tweets, and retrieve user data.
+
+The Twitter API is a RESTful web service that allows developers to interact programmatically with Twitter data. You can:
+
+Read public tweets and timelines
+Post tweets and replies
+Retrieve user profiles and followers
+Monitor hashtags, trends, and mentions
+Stream live tweets in real time
+
+

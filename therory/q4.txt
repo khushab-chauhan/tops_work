@@ -1,0 +1,30 @@
+1.HTTP request methods (GET, POST, PUT, DELETE)  
+| Method   | Purpose | Action                       | DRF View Example        |
+| -------- | ------- | ---------------------------- | ----------------------- |
+| `GET`    | Read    | Fetch data                   | `@api_view(['GET'])`    |
+| `POST`   | Create  | Submit new data              | `@api_view(['POST'])`   |
+| `PUT`    | Update  | Replace entire existing data | `@api_view(['PUT'])`    |
+| `DELETE` | Delete  | Remove existing data         | `@api_view(['DELETE'])` |
+
+
+2.Sending and receiving responsesin DRF
+1. Receiving Data (Handling Requests)
+DRF provides request.data to receive and parse incoming data from:
+
+POST
+
+PUT
+
+PATCH
+
+DELETE
+
+2. Sending Responses
+Use rest_framework.response.Response to send back structured responses.
+
+python
+Copy
+Edit
+from rest_framework.response import Response
+
+return Response(data, status=status.HTTP_200_OK)

@@ -1,0 +1,14 @@
+1.Introduction to integrating payment gateways like PayPal and Stripe.
+
+A payment gateway is a service that securely authorizes online payments between a customer, a website/app, and a bank or card network (like Visa, Mastercard).
+
+It handles:
+
+Card processing
+
+Authentication
+
+Fraud prevention
+
+Transaction security
+

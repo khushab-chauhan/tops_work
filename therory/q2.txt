@@ -1,0 +1,67 @@
+1.Understanding project requirements.
+It means clearly knowing what the project should do, how it should behave, what features it must include, and what the client or user expects.
+
+1. Read the Requirement Document Carefully
+Identify keywords, features, constraints, and deliverables.
+
+Ask: What is being asked to build? What are must-haves?
+
+2. Break it Down into Smaller Parts
+Convert requirements into a list of features or modules.
+
+Example:
+
+Login module
+
+Dashboard module
+
+Billing form
+
+Generate invoice
+
+3. Ask Clarifying Questions
+If anything is unclear, ask the client or team.
+Questions can include:
+
+“Should the invoice be printable?”
+
+“Should we allow multiple users?”
+
+“Should it support mobile view?”
+
+4. Visualize the System (Draw Diagrams)
+Draw UI sketches, ER diagrams, flowcharts, or UML to understand:
+
+What users will see
+
+How data flows
+
+What modules are needed
+
+5. Understand Constraints
+Time limit
+
+Tech stack (e.g., must use Tkinter and MySQL)
+
+Deployment method (e.g., must work on local machine)
+
+6. Document Your Understanding
+Write a short document with:
+
+Summary of what the system will do
+
+List of features
+
+Tools/libraries to be used
+
+File/module structure (rough plan)
+
+7. Get Feedback Before Starting
+Show your understanding to your mentor, client, or instructor.
+
+Get confirmation so that you’re building the right thing.
+
+---------------------------------------------------------------------------------------
+2.Setting up the environment and installing necessary packages.
+Absolutely! Let's walk through setting up your Django environment and installing necessary packages, step-by-step — perfect for your billing project using Django, MySQL, and (optionally) Tkinter.
+pip install <requirements File>

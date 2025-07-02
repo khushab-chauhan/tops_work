@@ -1,0 +1,30 @@
+What is an API ?
+API stands for Application Programming Interface.
+
+It is a set of rules and protocols that allow different software systems to communicate with each other.
+API is like a waiter in a restaurant — it takes your request (order), tells the kitchen (server) what you want, and brings back the response (food).
+
+An API (Application Programming Interface) is a contract or interface that defines how two software components should interact with each other.
+
+In software architecture, APIs abstract internal logic, allowing systems to communicate without knowing each other’s internal details.
+
+2.Types of APIs: REST, SOAP.
+REST is a lightweight architectural style used to design networked applications, typically over HTTP.
+ 1. REST API (Representational State Transfer)
+Overview:
+REST is a lightweight architectural style used to design networked applications, typically over HTTP.
+ 2. SOAP API (Simple Object Access Protocol)
+Overview:
+SOAP is a protocol-based API that uses XML for communication and has strict rules.
+It was widely used before REST became popular.
+
+
+
+3.Why are APIs important in web development?
+
+communication bridge=>	Connects frontend & backend
+Integration with third-party=>	Adds external features (maps, payments, etc.)
+Reusability=>	Share logic across systems (mobile/web)
+Scalability=>	Supports large-scale apps via microservices
+Security=>	API keys, tokens protect endpoints
+Automation=>	Triggers and workflows based on API responses

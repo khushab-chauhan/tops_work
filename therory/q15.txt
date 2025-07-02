@@ -1,0 +1,10 @@
+1.Using Google Maps Geocoding API to convert addresses into coordinates.
+
+The Google Geocoding API is a part of Google Maps Platform that converts:
+
+addresses → Coordinates (Geocoding)
+Coordinates → Addresses (Reverse Geocoding)
+
+Geocode: Convert a physical address (like a city, street, or landmark) into geographic coordinates (latitude and longitude).
+
+Reverse Geocode: Convert latitude and longitude back into a human-readable address.

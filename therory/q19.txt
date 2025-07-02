@@ -1,0 +1,13 @@
+1.  Using email sending APIs like SendGrid and Mailchimp to send transactional emails.
+
+
+Email sending APIs are web services that allow developers to send emails programmatically (via code) instead of relying on local email servers.
+
+These APIs are ideal for sending:
+
+Transactional emails (password resets, confirmations)
+
+Marketing emails (newsletters, promotions)
+
+Verification emails (OTP, signup links)
+

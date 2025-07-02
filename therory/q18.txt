@@ -1,0 +1,19 @@
+1. Introduction to REST Countries API and how to retrieve country-specific data
+
+The REST Countries API is a free and public web API that provides detailed information about countries in a structured, RESTful way.
+
+You can fetch data like:
+
+Country name, capital, region, subregion
+
+Languages spoken
+
+Currency
+
+Population
+
+Country codes (ISO Alpha-2, Alpha-3)
+
+Geolocation (lat/lng) and bordering countries
+
+Flag images and emojis

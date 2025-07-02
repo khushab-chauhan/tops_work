@@ -1,0 +1,50 @@
+1.Difference between authentication and authorization.
+
+Authentication is the process of verifying a user's identity. It ensures that users are who they claim to be.
+
+Example:
+Entering a username and password
+
+Using an API token or JWT (JSON Web Token)
+
+Signing in with Google/Facebook
+
+Authorization is the process of determining whether an authenticated user has permission to access a specific resource or perform an action.
+
+Example:
+Admin users can delete users
+
+Regular users can only view their own profile
+
+API client can read data but not update it
+
+
+| Feature          | Authentication                      | Authorization                            |
+| ---------------- | ----------------------------------- | ---------------------------------------- |
+| **Definition**   | Verifying **who the user is**       | Checking **what the user can do**        |
+| **Purpose**      | Confirms user identity              | Grants or denies access to resources     |
+| **Occurs**       | **First** in the process            | **After** authentication                 |
+| **Example**      | Login with username/password        | Access to `/admin/` or deleting a record |
+| **Output**       | Returns a valid user object         | Allows/denies access to specific actions |
+| **Common Tools** | Tokens, sessions, passwords, OAuth  | Permissions, roles, access control lists |
+| **In DRF**       | Handled by `Authentication` classes | Handled by `Permission` classes          |
+---------------------------------
+2. Implementing authentication using Django REST Framework’s token-based system
+Token Authentication in Django REST Framework (DRF) allows clients (like frontend apps, mobile apps, or external systems) to authenticate by sending a unique token instead of using sessions or cookies.
+
+->pip install djangorestframework
+->INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'rest_framework.authtoken',
+]
+-># settings.py
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',  # Optional: Force auth
+    ],
+}

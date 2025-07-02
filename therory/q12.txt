@@ -1,0 +1,15 @@
+1. What is CRUD, and why is it fundamental to backend development?
+| Letter | Operation  | Meaning                         |
+| ------ | ---------- | ------------------------------- |
+| C      | **Create** | Add new data to the database    |
+| R      | **Read**   | Retrieve data from the database |
+| U      | **Update** | Modify existing data            |
+| D      | **Delete** | Remove data                     |
+
+real world Example
+
+| Use Case           | Create      | Read          | Update             | Delete             |
+| ------------------ | ----------- | ------------- | ------------------ | ------------------ |
+| Blogging App       | Add a post  | View posts    | Edit a post        | Delete post        |
+| E-commerce Site    | Add product | List products | Update stock price | Remove product     |
+| Appointment System | Book a slot | View schedule | Reschedule         | Cancel appointment |

@@ -1,0 +1,9 @@
+1.Using Google Maps API to display maps and calculate distances between locations
+The Google Maps Platform is a suite of APIs provided by Google that allows developers to embed and interact with maps and geospatial data in websites and mobile apps.
+
+
+
+Maps JavaScript => API	Embed interactive maps in web apps
+Distance Matrix => API	Calculate travel distance and time
+Geocoding API	=> Convert addresses to coordinates
+Directions API => 	Show driving/walking routes

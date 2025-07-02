@@ -1,0 +1,10 @@
+1.Introduction to OpenWeatherMap API and how to retrieve weather data
+
+OpenWeatherMap is a RESTful API service that provides current weather, forecast, and other climate data for any location in the world using HTTP requests.
+
+You can use it to get:
+Current weather conditions
+5-day and 16-day forecasts
+Historical weather
+Air quality, UV index, etc.
+

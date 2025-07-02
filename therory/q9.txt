@@ -1,0 +1,12 @@
+1. Setting up a Django REST Framework project 
+Django REST Framework (DRF) is a powerful toolkit built on top of Django for building RESTful APIs.
+To set up a DRF project, you go through these main steps:
+
+1.pip install django djangorestframework
+2.
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
+

@@ -1,0 +1,13 @@
+1. Introduction to Twilio API forsending SMS and OTPs.
+
+Twilio is a cloud communication platform that provides APIs to programmatically send and receive:
+
+SMS (text messages)
+
+Voice calls
+
+OTPs (One-Time Passwords)
+
+Emails (via SendGrid)
+
+WhatsApp, Chat, Video, and more

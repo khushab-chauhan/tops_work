@@ -1,0 +1,20 @@
+1.Understanding views in DRF: Function-based views vs Class-based views.
+
+Function-Based Views are simple Python functions that take a request object and return a Response. DRF provides the @api_view decorator to turn a regular Django view into an API view.
+Characteristics:
+Simple to write and understand
+
+Logic for all HTTP methods (GET, POST, etc.) is handled inside a single function
+
+Best suited for small or quick APIs
+
+Class-Based Views use Python classes to structure the view logic. DRF provides powerful base classes like APIView, GenericAPIView, and ViewSet to support reusable and scalable API design.
+
+Characteristics:
+Each HTTP method is defined as a separate method (get(), post(), etc.)
+
+Encourages object-oriented principles like inheritance and mixins
+
+More scalable and reusable
+
+Preferred for large or complex APIs

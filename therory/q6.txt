@@ -1,0 +1,16 @@
+1.Defining URLs and linking them to views.
+In Django and DRF, URLs act as the entry point for your API. You define routes (URLs) and link them to views that handle the logic for that request.
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+
+@api_view(['GET'])
+def hello_api(request):
+    return Response({"message": "Hello from API!"})
+from django.urls import path
+from .views import hello_api
+
+
+urlpatterns = [
+    path('hello/', hello_api),  # URL: /hello/
+]

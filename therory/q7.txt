@@ -1,0 +1,9 @@
+1. Adding pagination to APIs to handle large data sets. 
+
+Pagination in Django REST Framework (DRF) is a method used to split large data sets into smaller chunks (pages) when returning data from an API. This helps improve:
+
+Performance (faster API responses)
+
+User experience (less data to load/render)
+
+Network efficiency (smaller payloads)

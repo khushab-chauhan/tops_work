@@ -1,0 +1,28 @@
+1.REST principles: statelessness, resource-based URLs, and using HTTP methods for CRUD
+operations.
+
+REST (Representational State Transfer) is an architectural style used to build scalable, simple web APIs over HTTP.
+
+It was introduced by Roy Fielding in his PhD thesis and follows specific principles
+
+1.Statelessness
+Every REST API call from client to server must contain all the information needed to understand and process the request.
+
+2. REST principles: statelessness, resource-based URLs, and using HTTP methods for CRUD
+operations.
+statelessness:-
+Every REST API call from client to server must contain all the information needed to understand and process the request.
+
+3.Resource-Based URLs:-
+In REST, everything is considered a resource, such as a user, doctor, appointment, etc.
+Each resource should be accessible via a unique, meaningful URL.
+
+4.CRUD  operations:-
+REST uses standard HTTP verbs to perform CRUD operations.
+
+HTTP Method	Action	Description	Example URL
+GET	Read	Retrieve data	/api/doctors/
+POST	Create	Add new resource	/api/doctors/
+PUT	Update	Replace an existing resource	/api/doctors/5/
+PATCH	Partial Update	Modify part of resource	/api/doctors/5/
+DELETE	Delete	Remove a resource	/api/doctors/5/
